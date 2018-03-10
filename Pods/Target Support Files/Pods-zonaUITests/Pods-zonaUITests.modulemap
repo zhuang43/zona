@@ -1,0 +1,6 @@
+framework module Pods_zonaUITests {
+  umbrella header "Pods-zonaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

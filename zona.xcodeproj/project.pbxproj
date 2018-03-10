@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0513B15E4ECC92E02FDB19C3 /* Pods_zonaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B791C0FD6901EC9B530E3D76 /* Pods_zonaTests.framework */; };
+		39C97BE3B675F3141EC4F26A /* Pods_zonaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3286B6B67E05455DE0B36A /* Pods_zonaUITests.framework */; };
+		51011CA5203E523F00D4B857 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CA4203E523F00D4B857 /* LoginViewController.swift */; };
+		51011CA9203E803400D4B857 /* SignupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CA8203E803400D4B857 /* SignupTableViewController.swift */; };
+		51011CAB203E8CC000D4B857 /* SourceHanSansSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CAA203E8CC000D4B857 /* SourceHanSansSC-Regular.otf */; };
+		51011CAC203E8CC000D4B857 /* SourceHanSansSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CAA203E8CC000D4B857 /* SourceHanSansSC-Regular.otf */; };
+		51011CAD203E8CC100D4B857 /* SourceHanSansSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CAA203E8CC000D4B857 /* SourceHanSansSC-Regular.otf */; };
+		51011CAF203E8CD200D4B857 /* SourceHanSansSC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CAE203E8CD200D4B857 /* SourceHanSansSC-Medium.otf */; };
+		51011CB1203E8CF300D4B857 /* SourceHanSansSC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CB0203E8CF300D4B857 /* SourceHanSansSC-Bold.otf */; };
+		51011CB3203E8D0300D4B857 /* SourceHanSansSC-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51011CB2203E8D0200D4B857 /* SourceHanSansSC-Light.otf */; };
+		51011CB5203ECFD100D4B857 /* nana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CB4203ECFD100D4B857 /* nana.swift */; };
+		51011CBB203EE52800D4B857 /* AddNanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CBA203EE52800D4B857 /* AddNanaViewController.swift */; };
+		51011CBD203EEBB200D4B857 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CBC203EEBB200D4B857 /* TextField.swift */; };
+		51011CBF203F9C3800D4B857 /* NextSignupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CBE203F9C3800D4B857 /* NextSignupTableViewController.swift */; };
+		51011CC1203F9E3600D4B857 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51011CC0203F9E3600D4B857 /* user.swift */; };
 		51257D0B203CE0A00043D682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D0A203CE0A00043D682 /* AppDelegate.swift */; };
 		51257D0D203CE0A00043D682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D0C203CE0A00043D682 /* ViewController.swift */; };
 		51257D10203CE0A00043D682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51257D0E203CE0A00043D682 /* Main.storyboard */; };
-		51257D12203CE0A00043D682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51257D11203CE0A00043D682 /* Assets.xcassets */; };
 		51257D15203CE0A00043D682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51257D13203CE0A00043D682 /* LaunchScreen.storyboard */; };
 		51257D20203CE0A00043D682 /* zonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D1F203CE0A00043D682 /* zonaTests.swift */; };
 		51257D2B203CE0A00043D682 /* zonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D2A203CE0A00043D682 /* zonaUITests.swift */; };
+		51257D3B203D028D0043D682 /* profileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 51257D3A203D028D0043D682 /* profileImage.png */; };
+		51257D3D203D0F210043D682 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D3C203D0F210043D682 /* ProfileViewController.swift */; };
+		51257D3F203D33450043D682 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D3E203D33450043D682 /* FeedViewController.swift */; };
+		51257D41203D48F10043D682 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51257D40203D48F10043D682 /* FeedTableViewCell.swift */; };
+		51A43E7520533B4A00928576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A43E7420533B4A00928576 /* Assets.xcassets */; };
+		51A43E7620533B4A00928576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A43E7420533B4A00928576 /* Assets.xcassets */; };
+		51A43E7720533B4A00928576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A43E7420533B4A00928576 /* Assets.xcassets */; };
+		51EC9EA9203E472700FA017F /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC9EA8203E472700FA017F /* MessageViewController.swift */; };
+		51EC9EAB203E48F200FA017F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51EC9EAA203E48F200FA017F /* GoogleService-Info.plist */; };
+		8891C31EB7B05F677483CE11 /* Pods_zona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43283598BC6A821C5E1D19A /* Pods_zona.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10294C79B1F54EF7E3008A90 /* Pods-zonaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zonaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zonaTests/Pods-zonaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28EAF91AB0E8C74B06506A36 /* Pods-zonaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zonaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zonaUITests/Pods-zonaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD86E97E1EF390FCEFB3D08 /* Pods-zona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zona.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zona/Pods-zona.debug.xcconfig"; sourceTree = "<group>"; };
+		51011CA4203E523F00D4B857 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		51011CA8203E803400D4B857 /* SignupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupTableViewController.swift; path = /Users/MacDouble/Desktop/2017SWIFT/zona/zona/SignupTableViewController.swift; sourceTree = "<absolute>"; };
+		51011CAA203E8CC000D4B857 /* SourceHanSansSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansSC-Regular.otf"; sourceTree = "<group>"; };
+		51011CAE203E8CD200D4B857 /* SourceHanSansSC-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansSC-Medium.otf"; sourceTree = "<group>"; };
+		51011CB0203E8CF300D4B857 /* SourceHanSansSC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansSC-Bold.otf"; sourceTree = "<group>"; };
+		51011CB2203E8D0200D4B857 /* SourceHanSansSC-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansSC-Light.otf"; sourceTree = "<group>"; };
+		51011CB4203ECFD100D4B857 /* nana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nana.swift; sourceTree = "<group>"; };
+		51011CBA203EE52800D4B857 /* AddNanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNanaViewController.swift; sourceTree = "<group>"; };
+		51011CBC203EEBB200D4B857 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		51011CBE203F9C3800D4B857 /* NextSignupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSignupTableViewController.swift; sourceTree = "<group>"; };
+		51011CC0203F9E3600D4B857 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		51257D07203CE09F0043D682 /* zona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51257D0A203CE0A00043D682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51257D0C203CE0A00043D682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51257D0F203CE0A00043D682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51257D11203CE0A00043D682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51257D14203CE0A00043D682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51257D16203CE0A00043D682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51257D1B203CE0A00043D682 /* zonaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +84,19 @@
 		51257D26203CE0A00043D682 /* zonaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zonaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51257D2A203CE0A00043D682 /* zonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zonaUITests.swift; sourceTree = "<group>"; };
 		51257D2C203CE0A00043D682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51257D3A203D028D0043D682 /* profileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileImage.png; sourceTree = "<group>"; };
+		51257D3C203D0F210043D682 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		51257D3E203D33450043D682 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		51257D40203D48F10043D682 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		51A43E7420533B4A00928576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51EC9EA8203E472700FA017F /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		51EC9EAA203E48F200FA017F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D3286B6B67E05455DE0B36A /* Pods_zonaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zonaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BE1578A14950FB580A2FA3 /* Pods-zonaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zonaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zonaTests/Pods-zonaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF8E7A7DA1E459B43A49FEEE /* Pods-zonaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zonaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zonaUITests/Pods-zonaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B791C0FD6901EC9B530E3D76 /* Pods_zonaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zonaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43283598BC6A821C5E1D19A /* Pods_zona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0320D9ECA3555859099F1C /* Pods-zona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zona.release.xcconfig"; path = "Pods/Target Support Files/Pods-zona/Pods-zona.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8891C31EB7B05F677483CE11 /* Pods_zona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0513B15E4ECC92E02FDB19C3 /* Pods_zonaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C97BE3B675F3141EC4F26A /* Pods_zonaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +130,17 @@
 		51257CFE203CE09F0043D682 = {
 			isa = PBXGroup;
 			children = (
+				51257D3A203D028D0043D682 /* profileImage.png */,
+				51011CB2203E8D0200D4B857 /* SourceHanSansSC-Light.otf */,
+				51011CAA203E8CC000D4B857 /* SourceHanSansSC-Regular.otf */,
+				51011CAE203E8CD200D4B857 /* SourceHanSansSC-Medium.otf */,
+				51011CB0203E8CF300D4B857 /* SourceHanSansSC-Bold.otf */,
 				51257D09203CE09F0043D682 /* zona */,
 				51257D1E203CE0A00043D682 /* zonaTests */,
 				51257D29203CE0A00043D682 /* zonaUITests */,
 				51257D08203CE09F0043D682 /* Products */,
+				9549D7AF941AD81AE32F4E17 /* Pods */,
+				52390C9B338E2C8ED26FA99D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +160,21 @@
 				51257D0A203CE0A00043D682 /* AppDelegate.swift */,
 				51257D0C203CE0A00043D682 /* ViewController.swift */,
 				51257D0E203CE0A00043D682 /* Main.storyboard */,
-				51257D11203CE0A00043D682 /* Assets.xcassets */,
+				51011CBE203F9C3800D4B857 /* NextSignupTableViewController.swift */,
+				51011CBC203EEBB200D4B857 /* TextField.swift */,
+				51011CBA203EE52800D4B857 /* AddNanaViewController.swift */,
+				51011CA4203E523F00D4B857 /* LoginViewController.swift */,
+				51257D40203D48F10043D682 /* FeedTableViewCell.swift */,
+				51EC9EA8203E472700FA017F /* MessageViewController.swift */,
+				51257D3E203D33450043D682 /* FeedViewController.swift */,
+				51257D3C203D0F210043D682 /* ProfileViewController.swift */,
+				51011CA8203E803400D4B857 /* SignupTableViewController.swift */,
+				51A43E7420533B4A00928576 /* Assets.xcassets */,
 				51257D13203CE0A00043D682 /* LaunchScreen.storyboard */,
 				51257D16203CE0A00043D682 /* Info.plist */,
+				51EC9EAA203E48F200FA017F /* GoogleService-Info.plist */,
+				51011CB4203ECFD100D4B857 /* nana.swift */,
+				51011CC0203F9E3600D4B857 /* user.swift */,
 			);
 			path = zona;
 			sourceTree = "<group>";
@@ -125,6 +197,29 @@
 			path = zonaUITests;
 			sourceTree = "<group>";
 		};
+		52390C9B338E2C8ED26FA99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43283598BC6A821C5E1D19A /* Pods_zona.framework */,
+				B791C0FD6901EC9B530E3D76 /* Pods_zonaTests.framework */,
+				6D3286B6B67E05455DE0B36A /* Pods_zonaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9549D7AF941AD81AE32F4E17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CD86E97E1EF390FCEFB3D08 /* Pods-zona.debug.xcconfig */,
+				FC0320D9ECA3555859099F1C /* Pods-zona.release.xcconfig */,
+				10294C79B1F54EF7E3008A90 /* Pods-zonaTests.debug.xcconfig */,
+				83BE1578A14950FB580A2FA3 /* Pods-zonaTests.release.xcconfig */,
+				28EAF91AB0E8C74B06506A36 /* Pods-zonaUITests.debug.xcconfig */,
+				AF8E7A7DA1E459B43A49FEEE /* Pods-zonaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51257D2F203CE0A00043D682 /* Build configuration list for PBXNativeTarget "zona" */;
 			buildPhases = (
+				8F3E833E763EDCC20A2B84E0 /* [CP] Check Pods Manifest.lock */,
 				51257D03203CE09F0043D682 /* Sources */,
 				51257D04203CE09F0043D682 /* Frameworks */,
 				51257D05203CE09F0043D682 /* Resources */,
+				C89FBCDB3D4EA4ACBCA191FB /* [CP] Embed Pods Frameworks */,
+				8BFBB2F3899EF18848FE9872 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51257D32203CE0A00043D682 /* Build configuration list for PBXNativeTarget "zonaTests" */;
 			buildPhases = (
+				F542D37B992F64454584FB9E /* [CP] Check Pods Manifest.lock */,
 				51257D17203CE0A00043D682 /* Sources */,
 				51257D18203CE0A00043D682 /* Frameworks */,
 				51257D19203CE0A00043D682 /* Resources */,
+				BED90240E42B8B8F3747EBB5 /* [CP] Embed Pods Frameworks */,
+				3E456FD457277295E3243A37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51257D35203CE0A00043D682 /* Build configuration list for PBXNativeTarget "zonaUITests" */;
 			buildPhases = (
+				0492F6999480D97BC9CEAE62 /* [CP] Check Pods Manifest.lock */,
 				51257D22203CE0A00043D682 /* Sources */,
 				51257D23203CE0A00043D682 /* Frameworks */,
 				51257D24203CE0A00043D682 /* Resources */,
+				6116BAD253F146322DE8ECC3 /* [CP] Embed Pods Frameworks */,
+				18ED81B780C0E3D65C13E022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +336,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51011CB1203E8CF300D4B857 /* SourceHanSansSC-Bold.otf in Resources */,
 				51257D15203CE0A00043D682 /* LaunchScreen.storyboard in Resources */,
-				51257D12203CE0A00043D682 /* Assets.xcassets in Resources */,
+				51011CB3203E8D0300D4B857 /* SourceHanSansSC-Light.otf in Resources */,
+				51011CAB203E8CC000D4B857 /* SourceHanSansSC-Regular.otf in Resources */,
+				51011CAF203E8CD200D4B857 /* SourceHanSansSC-Medium.otf in Resources */,
+				51EC9EAB203E48F200FA017F /* GoogleService-Info.plist in Resources */,
 				51257D10203CE0A00043D682 /* Main.storyboard in Resources */,
+				51A43E7520533B4A00928576 /* Assets.xcassets in Resources */,
+				51257D3B203D028D0043D682 /* profileImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A43E7620533B4A00928576 /* Assets.xcassets in Resources */,
+				51011CAC203E8CC000D4B857 /* SourceHanSansSC-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +361,187 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A43E7720533B4A00928576 /* Assets.xcassets in Resources */,
+				51011CAD203E8CC100D4B857 /* SourceHanSansSC-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0492F6999480D97BC9CEAE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zonaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18ED81B780C0E3D65C13E022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zonaUITests/Pods-zonaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E456FD457277295E3243A37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zonaTests/Pods-zonaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6116BAD253F146322DE8ECC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zonaUITests/Pods-zonaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BFBB2F3899EF18848FE9872 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zona/Pods-zona-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3E833E763EDCC20A2B84E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED90240E42B8B8F3747EBB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zonaTests/Pods-zonaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89FBCDB3D4EA4ACBCA191FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zona/Pods-zona-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zona/Pods-zona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F542D37B992F64454584FB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zonaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51257D03203CE09F0043D682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51011CC1203F9E3600D4B857 /* user.swift in Sources */,
+				51011CBB203EE52800D4B857 /* AddNanaViewController.swift in Sources */,
+				51011CB5203ECFD100D4B857 /* nana.swift in Sources */,
+				51011CBD203EEBB200D4B857 /* TextField.swift in Sources */,
+				51011CA9203E803400D4B857 /* SignupTableViewController.swift in Sources */,
+				51257D41203D48F10043D682 /* FeedTableViewCell.swift in Sources */,
 				51257D0D203CE0A00043D682 /* ViewController.swift in Sources */,
+				51011CBF203F9C3800D4B857 /* NextSignupTableViewController.swift in Sources */,
+				51257D3F203D33450043D682 /* FeedViewController.swift in Sources */,
+				51011CA5203E523F00D4B857 /* LoginViewController.swift in Sources */,
+				51257D3D203D0F210043D682 /* ProfileViewController.swift in Sources */,
 				51257D0B203CE0A00043D682 /* AppDelegate.swift in Sources */,
+				51EC9EA9203E472700FA017F /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +705,17 @@
 		};
 		51257D30203CE0A00043D682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD86E97E1EF390FCEFB3D08 /* Pods-zona.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TD58ZTBUU;
 				INFOPLIST_FILE = zona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoyHuang.zona;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +723,17 @@
 		};
 		51257D31203CE0A00043D682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0320D9ECA3555859099F1C /* Pods-zona.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TD58ZTBUU;
 				INFOPLIST_FILE = zona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RoyHuang.zona;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +741,7 @@
 		};
 		51257D33203CE0A00043D682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10294C79B1F54EF7E3008A90 /* Pods-zonaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +758,7 @@
 		};
 		51257D34203CE0A00043D682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BE1578A14950FB580A2FA3 /* Pods-zonaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +775,7 @@
 		};
 		51257D36203CE0A00043D682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EAF91AB0E8C74B06506A36 /* Pods-zonaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +791,7 @@
 		};
 		51257D37203CE0A00043D682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8E7A7DA1E459B43A49FEEE /* Pods-zonaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
